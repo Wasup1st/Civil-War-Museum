@@ -1,0 +1,548 @@
+{
+  "title": "Civil War Medicine: Divided by War, United by the Need to Heal",
+  "historicalThesis": "The Civil War accelerated the development of organized American medical care on both sides. Union and Confederate medical workers faced shared limitations, but differences in resources, infrastructure, labor, and organization shaped their experiences. Wartime practices contributed to later developments in emergency transportation, anesthesia, hospital administration, and nursing.",
+  "wings": {
+    "intro": {
+      "id": "intro",
+      "number": "1",
+      "name": "Introduction Rotunda",
+      "subtitle": "Antebellum Baseline, Crisis of Scale & Historical Argument",
+      "badgeClass": "bg-amber-500/20 text-amber-300 border-amber-500/30",
+      "dotColor": "#f59e0b",
+      "teleportPos": {
+        "x": 0,
+        "y": 1.7,
+        "z": 6
+      },
+      "lookAt": {
+        "x": 0,
+        "y": 1.7,
+        "z": -2
+      },
+      "description": "Introduces the state of American medical education and hospital care prior to 1861, the unprecedented organizational crisis caused by industrial-scale warfare, and the two flagship general hospital case studies: Satterlee (Philadelphia) and Chimborazo (Richmond)."
+    },
+    "north": {
+      "id": "north",
+      "number": "2",
+      "name": "North Wing: Satterlee General Hospital",
+      "subtitle": "West Philadelphia, Pennsylvania \u2022 Union Medical Services",
+      "badgeClass": "bg-blue-500/20 text-blue-300 border-blue-500/30",
+      "dotColor": "#3b82f6",
+      "teleportPos": {
+        "x": -26,
+        "y": 1.7,
+        "z": -10
+      },
+      "lookAt": {
+        "x": -26,
+        "y": 1.7,
+        "z": -22
+      },
+      "description": "Illuminated in warm daylight with Union blue architectural trim, this wing examines Satterlee U.S.A. General Hospital in West Philadelphia under Surgeon-in-Charge Dr. Isaac Israel Hayes, the nursing care of the Sisters of Charity including Margaret Hamilton, and the documented recovery of Private John Worrall."
+    },
+    "south": {
+      "id": "south",
+      "number": "3",
+      "name": "South Wing: Chimborazo Hospital",
+      "subtitle": "Richmond, Virginia \u2022 Confederate Medical Services & Labor",
+      "badgeClass": "bg-slate-400/20 text-slate-200 border-slate-400/30",
+      "dotColor": "#94a3b8",
+      "teleportPos": {
+        "x": 26,
+        "y": 1.7,
+        "z": -10
+      },
+      "lookAt": {
+        "x": 26,
+        "y": 1.7,
+        "z": -22
+      },
+      "description": "Set in cooler evening lighting with slate-gray architectural accents, this wing explores Chimborazo Hospital in Richmond under Dr. James B. McCaw, matron Phoebe Yates Pember's firsthand memoir, Private George Ivy's January 15, 1864 letter, supply shortages, and the essential coerced labor of enslaved African Americans."
+    },
+    "field": {
+      "id": "field",
+      "number": "4",
+      "name": "Interpretive Union Field Hospital",
+      "subtitle": "Frontline Triage, Letterman's Ambulance Corps & Anesthesia",
+      "badgeClass": "bg-emerald-500/20 text-emerald-300 border-emerald-500/30",
+      "dotColor": "#10b981",
+      "teleportPos": {
+        "x": 0,
+        "y": 1.7,
+        "z": -31
+      },
+      "lookAt": {
+        "x": 0,
+        "y": 1.7,
+        "z": -41
+      },
+      "description": "An interpretive, non-graphic historical reconstruction with stylized educational staff figures of a frontline Union division field hospital tent\u2014distinct from permanent general hospitals like Satterlee and Chimborazo\u2014illustrating General Orders No. 147 (1862), forward dressing stations, and wartime anesthesia."
+    },
+    "modern": {
+      "id": "modern",
+      "number": "5",
+      "name": "Modern Medicine Legacy Gallery",
+      "subtitle": "Continuity, Change & Present-Day Medical Systems",
+      "badgeClass": "bg-sky-500/20 text-sky-300 border-sky-500/30",
+      "dotColor": "#38bdf8",
+      "teleportPos": {
+        "x": 0,
+        "y": 1.7,
+        "z": -56
+      },
+      "lookAt": {
+        "x": 0,
+        "y": 1.7,
+        "z": -68
+      },
+      "description": "Connects 1861\u20131865 institutional developments in emergency evacuation, triage, hospital administration, anesthesia familiarity, and professional nursing to modern healthcare while carefully distinguishing wartime organization from later scientific discoveries."
+    }
+  },
+  "exhibits": [
+    {
+      "id": "intro-thesis",
+      "wing": "intro",
+      "title": "Divided by War, United by the Need to Heal",
+      "subtitle": "Central Exhibition Thesis & Historiographical Framework",
+      "category": "Core Thesis Plaque",
+      "position": {
+        "x": 0,
+        "y": 1.35,
+        "z": -1.5
+      },
+      "artifactType": "obelisk",
+      "accentColor": "#f59e0b",
+      "visualType": "thesisDiagram",
+      "body": [
+        "When the American Civil War began in April 1861, neither the United States nor the Confederacy possessed a medical system capable of caring for hundreds of thousands of sick and wounded soldiers. Before the war, most Americans were treated at home rather than in hospitals, and the U.S. Army Medical Department was a small peacetime bureaucracy built for frontier outposts.",
+        "This exhibition argues that the Civil War accelerated the development of organized American medical care on both sides. Union and Confederate medical workers confronted shared scientific limitations\u2014most notably operating in a pre-bacteriological era before germ theory and antiseptic surgery were understood. Yet stark differences in industrial manufacturing, rail and naval logistics, blockade pressure, labor systems, and administrative centralization shaped daily hospital operations.",
+        "Crucially, historians distinguish between what the Civil War invented and what it expanded. Surgeons did not invent anesthesia during the war\u2014diethyl ether (1846) and chloroform (1847) were introduced in the 1840s\u2014but wartime surgeons administered anesthetics on an unprecedented scale. Meanwhile, innovations in coordinated ambulance evacuation, tiered triage, pavilion-style general hospital administration, and expanded female and religious nursing left lasting institutional legacies."
+      ],
+      "transcription": null,
+      "citation": "Dana B. Shoaf, 'How Civil War Medical Developments Affect Us Every Day,' American Battlefield Trust; Maurice S. Albin, 'The Use of Anesthetics during the Civil War, 1861\u20131865,' Pharmacy in History 42, no. 3/4 (2000): 99\u2013114.",
+      "sourceUrl": "https://www.battlefields.org/learn/articles/how-civil-war-medical-developments-affect-us-every-day"
+    },
+    {
+      "id": "intro-antebellum",
+      "wing": "intro",
+      "title": "The 1861 Medical Crisis & Shared Scientific Limits",
+      "subtitle": "Pre-Germ Theory Medicine and the Shock of Mass Casualties",
+      "category": "Historical Context",
+      "position": {
+        "x": -5.5,
+        "y": 1.2,
+        "z": -3.2
+      },
+      "artifactType": "medicalBook",
+      "accentColor": "#fbbf24",
+      "visualType": "preWarComparison",
+      "body": [
+        "Prior to 1861, American medical education typically consisted of two short terms of lectures with minimal clinical or laboratory instruction. Physicians lacked knowledge of pathogenic bacteria, viral transmission, or sterile surgical technique. Instruments and sponges were routinely washed in plain water and reused from patient to patient, making post-operative infections\u2014then termed 'hospital gangrene,' erysipelas, and pyemia\u2014pervasive hazards in both Union and Confederate wards.",
+        "Disease claimed far more soldiers' lives than battle wounds. Camp illnesses such as dysentery, typhoid fever, malaria, measles, and pneumonia overwhelmed regimental surgeons in the war's opening months. In response, military authorities and civilian relief organizations\u2014such as the U.S. Sanitary Commission in the North\u2014pushed for ventilated pavilion hospitals, standardized supply tables, and organized evacuation networks."
+      ],
+      "transcription": null,
+      "citation": "American Battlefield Trust, Dana B. Shoaf, 'How Civil War Medical Developments Affect Us Every Day'; National Museum of Civil War Medicine, 'The Story of Satterlee Hospital.'",
+      "sourceUrl": "https://www.battlefields.org/learn/articles/how-civil-war-medical-developments-affect-us-every-day"
+    },
+    {
+      "id": "intro-case-studies",
+      "wing": "intro",
+      "title": "Two Pavilion Giants: Satterlee & Chimborazo",
+      "subtitle": "Comparing Union and Confederate General Hospitals",
+      "category": "Comparative Case Study",
+      "position": {
+        "x": 5.5,
+        "y": 1.2,
+        "z": -3.2
+      },
+      "artifactType": "dualColumns",
+      "accentColor": "#60a5fa",
+      "visualType": "pavilionComparison",
+      "body": [
+        "Unlike temporary battlefield dressing stations, 'General Hospitals' were massive, permanent urban complexes Located far behind the lines along rail and water corridors. Built on the 'pavilion plan' advocated by Florence Nightingale and contemporary sanitarians, they featured dozens of separate, single-story wooden ward buildings designed to maximize fresh air circulation and isolate miasmas.",
+        "In the North Wing (left), visitors enter Satterlee U.S.A. General Hospital in West Philadelphia, Pennsylvania\u2014one of the largest Union hospitals, directed by Arctic explorer and physician Dr. Isaac Israel Hayes. In the South Wing (right), visitors explore Chimborazo Hospital atop a plateau in Richmond, Virginia\u2014commanded by Dr. James B. McCaw and matrons such as Phoebe Yates Pember, and sustained through the coerced labor of enslaved and impressed African American workers."
+      ],
+      "transcription": null,
+      "citation": "National Museum of Civil War Medicine, 'The Story of Satterlee Hospital'; National Park Service, Richmond National Battlefield Park, 'Chimborazo Hospital.'",
+      "sourceUrl": "https://www.civilwarmed.org/satterlee-hospital/"
+    },
+    {
+      "id": "north-lithograph-1864",
+      "wing": "north",
+      "title": "1864 Lithograph of Satterlee U.S.A. General Hospital",
+      "subtitle": "West Philadelphia, Pennsylvania \u2022 Charles Magnus Lithograph (1864)",
+      "category": "Primary Source Visual Artifact",
+      "position": {
+        "x": -34,
+        "y": 1.4,
+        "z": -18
+      },
+      "artifactType": "framedLithograph",
+      "accentColor": "#3b82f6",
+      "visualType": "satterleeLithograph",
+      "body": [
+        "Opened in 1862 in West Philadelphia and named in honor of Brigadier General Richard S. Satterlee (a career U.S. Army Medical Purveyor), Satterlee General Hospital grew into one of the largest military hospital complexes in the United States. Situated on a 15-acre site near Baltimore Avenue and 44th Street, its radiating wooden pavilion wards surrounded central administrative buildings, kitchens, laundries, a library, a chapel, and even a hospital printing press that published the 'West Philadelphia Hospital Register.'",
+        "This 1864 colored lithograph preserved by the Free Library of Philadelphia depicts the orderly geometry of the pavilion system. Each ward was engineered with ridge-ventilation roofs and rows of windows to continuously flush stale air\u2014reflecting the era's belief that fresh air prevented the spread of disease. Following the Battle of Gettysburg in July 1863, Satterlee experienced its heaviest influx, treating thousands of wounded soldiers transported by rail."
+      ],
+      "transcription": {
+        "meta": "Archival visual description, not a transcribed quotation",
+        "quote": "The 1864 lithograph depicts the Satterlee U.S.A. General Hospital complex in West Philadelphia. Open the linked archive record to study its original printed caption.",
+        "note": "The archival image is a primary source. This description is a curatorial summary."
+      },
+      "citation": "Free Library of Philadelphia, 'Satterlee U.S.A. General Hospital, West Philadelphia' (1864 lithograph), Digital Collections Item pdcp00420; National Museum of Civil War Medicine, 'The Story of Satterlee Hospital.'",
+      "sourceUrl": "https://libwww.freelibrary.org/digital/item/pdcp00420"
+    },
+    {
+      "id": "north-staff-hayes",
+      "wing": "north",
+      "title": "Medical Leadership & Staff at Satterlee Hospital",
+      "subtitle": "Dr. Isaac Israel Hayes, Margaret Hamilton & the Sisters of Charity",
+      "category": "Interactive Staff Display",
+      "position": {
+        "x": -26,
+        "y": 1.25,
+        "z": -25
+      },
+      "artifactType": "staffLedger",
+      "accentColor": "#60a5fa",
+      "visualType": "satterleeStaffDiagram",
+      "body": [
+        "Satterlee General Hospital operated as a self-contained medical city directed by Surgeon-in-Charge Dr. Isaac Israel Hayes (1832\u20131881), a University of Pennsylvania medical graduate already famous before the war as an Arctic explorer. Under Hayes's administration, Satterlee combined military discipline with civilian medical expertise from Philadelphia's leading medical colleges.",
+        "Crucial to Satterlee's low mortality rate and daily patient care were dozens of Sisters of Charity from St. Joseph's Central House in Emmitsburg, Maryland, led by Sister Mary Gonzaga Grace and including documented nursing sisters such as Sister Margaret Hamilton. Unlike untrained temporary volunteers, the Sisters of Charity brought established institutional nursing experience, managing ward cleanliness, special diets, dressings, and emotional comfort without drawing army salaries."
+      ],
+      "staffRoles": [
+        {
+          "role": "Surgeon-in-Charge: Dr. Isaac Israel Hayes",
+          "duties": "Chief executive officer of Satterlee Hospital. Oversaw dozens of ward surgeons, enforced sanitation and ventilation regulations, coordinated rail arrivals of wounded soldiers, and managed administrative records, kitchens, and supply requisitions."
+        },
+        {
+          "role": "Sisters of Charity (including Margaret Hamilton & Sister Mary Gonzaga Grace)",
+          "duties": "Provided disciplined, experienced nursing care across Satterlee's 34+ wards. Supervised diet kitchens, distributed medicines and bandages, comforted dying and recovering soldiers, and maintained strict cleanliness and order."
+        },
+        {
+          "role": "Acting Assistant (Contract) Surgeons & Medical Cadets",
+          "duties": "Civilian physicians and senior medical students from Philadelphia hired under contract to staff individual wards, perform wound dressings, record case histories, and conduct surgical operations."
+        },
+        {
+          "role": "Hospital Stewards & Convalescent Ward Orderlies",
+          "duties": "Non-commissioned officers skilled in compounding pharmaceuticals in the dispensary, maintaining ward registers, and supervising convalescent soldiers who assisted with lighter hospital duties."
+        }
+      ],
+      "transcription": null,
+      "citation": "National Museum of Civil War Medicine, 'The Story of Satterlee Hospital' (https://www.civilwarmed.org/satterlee-hospital/).",
+      "sourceUrl": "https://www.civilwarmed.org/satterlee-hospital/"
+    },
+    {
+      "id": "north-john-worrall",
+      "wing": "north",
+      "title": "Patient Experience: Private John Worrall",
+      "subtitle": "Documented Treatment, Convalescence & Survival at Satterlee",
+      "category": "Patient Case Study",
+      "position": {
+        "x": -18,
+        "y": 1.25,
+        "z": -18
+      },
+      "artifactType": "patientBedside",
+      "accentColor": "#93c5fd",
+      "visualType": "worrallCaseCard",
+      "body": [
+        "While battlefield surgery was chaotic and urgent, recovery in a Union general hospital like Satterlee often lasted months. Private John Worrall received documented medical treatment at Satterlee General Hospital and survived the Civil War\u2014representing the vast majority of patients admitted to Satterlee, where abundant northern food supplies, clean water, pharmaceuticals, and attentive nursing by the Sisters of Charity contributed to remarkably high survival rates.",
+        "Patients like Worrall experienced a structured daily routine: morning surgeon rounds, fresh wound dressings using lint and cold-water irrigation, nourishing diets tailored to convalescents, and access to Satterlee's reading room and cultural lectures designed to combat 'nostalgia' (severe wartime depression and homesickness)."
+      ],
+      "transcription": {
+        "meta": "Secondary historical case summary \u2022 NOT a firsthand patient quotation",
+        "quote": "Curatorial summary, not a quotation from John Worrall. His treatment and survival are discussed in historical hospital research.",
+        "note": "Verified historical outcome: Private John Worrall is documented as having survived his hospitalization and the Civil War."
+      },
+      "citation": "National Museum of Civil War Medicine, 'The Story of Satterlee Hospital' (https://www.civilwarmed.org/satterlee-hospital/).",
+      "sourceUrl": "https://www.civilwarmed.org/satterlee-hospital/"
+    },
+    {
+      "id": "south-mccaw-organization",
+      "wing": "south",
+      "title": "Chimborazo Hospital & Dr. James B. McCaw",
+      "subtitle": "Richmond, Virginia \u2022 Confederate Pavilion Organization & Resource Strain",
+      "category": "Hospital Organization & Staff",
+      "position": {
+        "x": 18,
+        "y": 1.25,
+        "z": -18
+      },
+      "artifactType": "chimborazoModel",
+      "accentColor": "#94a3b8",
+      "visualType": "chimborazoPlateauMap",
+      "body": [
+        "Established in October 1861 on a high, breezy plateau on the eastern edge of Richmond, Virginia, Chimborazo Hospital became one of the largest military hospitals in the world. Commanded throughout the war by Dr. James Brown McCaw (a respected Richmond physician and professor at the Medical College of Virginia), Chimborazo was organized into five distinct divisions comprising roughly 150 whitewashed, single-story wooden pavilion buildings.",
+        "Despite well-ventilated architecture and capable organization, Confederate medical services faced severe structural bottlenecks. The Union naval blockade, deteriorating southern railroads, runaway inflation, and the destruction of agricultural regions created acute shortages of quinine, morphine, chloroform, surgical instruments, clean linens, and basic foodstuffs by 1863\u20131865."
+      ],
+      "staffRoles": [
+        {
+          "role": "Commandant & Surgeon-in-Charge: Dr. James B. McCaw",
+          "duties": "Organized Chimborazo into five divisions, each supervised by a Surgeon-in-Charge. Operated an independent supply system including a hospital bakery, soap factories, icehouses, canal boats, and goat/cattle farms to feed patients despite Confederate supply collapses."
+        },
+        {
+          "role": "Hospital Matrons (including Phoebe Yates Pember)",
+          "duties": "Appointed after the Confederate Congress authorized female hospital matrons in 1862. Supervised special diet kitchens, managed medicinal whiskey stores, oversaw ward cleanliness, and wrote letters for wounded soldiers."
+        },
+        {
+          "role": "Division & Assistant Surgeons",
+          "duties": "Performed surgeries, dressed wounds, and sought indigenous botanical substitutes from the Confederate laboratory system when imported pharmaceuticals ran low."
+        },
+        {
+          "role": "Enslaved & Free African American Hospital Workers",
+          "duties": "Formed the indispensable backbone of Chimborazo's daily operation\u2014working as nurses, cooks, laundresses, ambulance drivers, grave diggers, and ward attendants under coercion and impressment."
+        }
+      ],
+      "transcription": null,
+      "citation": "National Park Service, Richmond National Battlefield Park, 'Chimborazo Hospital' (https://www.nps.gov/rich/learn/historyculture/chimborazo.htm).",
+      "sourceUrl": "https://www.nps.gov/rich/learn/historyculture/chimborazo.htm"
+    },
+    {
+      "id": "south-pember-memoir",
+      "wing": "south",
+      "title": "Phoebe Yates Pember: A Southern Woman's Story (1879)",
+      "subtitle": "Firsthand Memoir of Chimborazo's Chief Matron of the Second Division",
+      "category": "Primary Source Memoir",
+      "position": {
+        "x": 26,
+        "y": 1.25,
+        "z": -25
+      },
+      "artifactType": "memoirBook",
+      "accentColor": "#cbd5e1",
+      "visualType": "pemberMemoirPage",
+      "body": [
+        "In late 1862, Phoebe Yates Levy Pember (1823\u20131913), a Jewish widow originally from Charleston, South Carolina, accepted appointment as Chief Matron of Chimborazo's Second Division. Stepping into a sphere previously dominated by male military officers and stewards, Pember managed diets, sanitation, and medicinal stores for hundreds of beds until Richmond fell in April 1865.",
+        "Her 1879 memoir, 'A Southern Woman's Story: Life in Confederate Richmond,' provides one of the richest firsthand primary accounts of Confederate hospital administration. Pember candidly documented resistance from certain surgeons to female authority, the bureaucratic battles over guarding the medicinal whiskey barrel, the resourcefulness required to prepare nourishing meals from dwindling rations, and the human toll of treating dying soldiers."
+      ],
+      "transcription": {
+        "meta": "Verbatim excerpt from Pember's Introduction \u2022 A Southern Woman's Story (1879), Project Gutenberg #63870",
+        "quote": "Soon after the breaking out of the Southern war, the need of hospitals, properly organized and arranged, began to be felt",
+        "note": "Memoir published in 1879 describing wartime experiences. Read the complete original for the passage in context."
+      },
+      "citation": "Phoebe Yates Pember, A Southern Woman's Story: Life in Confederate Richmond (1879), Project Gutenberg eBook #63870 (https://www.gutenberg.org/files/63870/63870-h/63870-h.htm); National Park Service, 'Chimborazo Hospital.'",
+      "sourceUrl": "https://www.gutenberg.org/files/63870/63870-h/63870-h.htm"
+    },
+    {
+      "id": "south-george-ivy-letter",
+      "wing": "south",
+      "title": "George Ivy's Chimborazo Hospital Letter (January 15, 1864)",
+      "subtitle": "Special Collections Research Center, William & Mary Libraries",
+      "category": "Primary Source Manuscript",
+      "position": {
+        "x": 34,
+        "y": 1.35,
+        "z": -22
+      },
+      "artifactType": "manuscriptCase",
+      "accentColor": "#e2e8f0",
+      "visualType": "ivyLetterManuscript",
+      "body": [
+        "Personal letters written from hospital wards reveal how ordinary soldiers experienced illness, loneliness, and scarcities inside Confederate hospitals. On January 15, 1864, Confederate soldier George Ivy wrote a letter from Chimborazo Hospital in Richmond, Virginia\u2014preserved today in the Special Collections Research Center at the College of William & Mary (Mss. Acc. 2011.674).",
+        "Ivy's letter reflects the conditions of mid-winter 1864 in Richmond, when inflation, cold weather, and food shortages weighed heavily on hospitalized soldiers yearning for news from home.",
+        "HISTORIANS' VERIFICATION NOTE: While George Ivy's presence as a patient at Chimborazo on January 15, 1864, is verified by this surviving manuscript, his eventual medical and wartime outcome has not been verified in the surviving archival record. Accordingly, this exhibition does not classify him as a confirmed survivor."
+      ],
+      "transcription": {
+        "meta": "William & Mary archival catalog description, not a verbatim letter transcription",
+        "quote": "Archival description only. The original manuscript's full text has not been verified for quotation in this museum.",
+        "note": "VERIFICATION NOTICE: George Ivy's ultimate wartime outcome after January 15, 1864, remains unverified in current archival records; do not cite him as a confirmed survivor."
+      },
+      "citation": "George Ivy Letter, January 15, 1864, Chimborazo Hospital, Special Collections Research Center, William & Mary Libraries (https://scrcguides.libraries.wm.edu/repositories/2/resources/1578).",
+      "sourceUrl": "https://scrcguides.libraries.wm.edu/repositories/2/resources/1578"
+    },
+    {
+      "id": "south-enslaved-labor",
+      "wing": "south",
+      "title": "Slavery, Impressment & African American Labor at Chimborazo",
+      "subtitle": "The Coerced Workforce that Sustained Confederate Hospital Operations",
+      "category": "Labor & Social History",
+      "position": {
+        "x": 34,
+        "y": 1.25,
+        "z": -14
+      },
+      "artifactType": "rosterPlaque",
+      "accentColor": "#f59e0b",
+      "visualType": "chimborazoLaborChart",
+      "body": [
+        "Chimborazo Hospital could not have functioned without the labor of hundreds of enslaved and free African American men and women. Confederate hospital administrators routinely 'hired' enslaved workers from local enslavers\u2014paying wages directly to the enslavers rather than to the workers\u2014or obtained workers through Confederate military impressment laws.",
+        "At Chimborazo, enslaved men and women worked grueling hours as ward nurses, cooks in the massive kitchens, laundresses boiling soiled bandages, bakers, woodcutters, ambulance drivers, and attendants. Despite working under coercion within a regime fighting to preserve slavery, African American hospital workers provided indispensable hands-on medical care, sanitation, and nourishment to tens of thousands of patients.",
+        "Presenting Confederate medical history accurately requires recognizing that Southern hospital infrastructure depended directly on the institution of slavery and coerced labor."
+      ],
+      "transcription": null,
+      "citation": "National Park Service, Richmond National Battlefield Park, 'Chimborazo Hospital' (https://www.nps.gov/rich/learn/historyculture/chimborazo.htm).",
+      "sourceUrl": "https://www.nps.gov/rich/learn/historyculture/chimborazo.htm"
+    },
+    {
+      "id": "field-general-orders-147",
+      "wing": "field",
+      "title": "General Orders No. 147 (August 2, 1862): The Ambulance Corps",
+      "subtitle": "Dr. Jonathan Letterman & the Army of the Potomac",
+      "category": "Primary Source Military Order",
+      "position": {
+        "x": -7.5,
+        "y": 1.25,
+        "z": -36
+      },
+      "artifactType": "dispatchPannier",
+      "accentColor": "#10b981",
+      "visualType": "generalOrders147Doc",
+      "body": [
+        "NOTE ON INTERPRETATION: This gallery presents a historically informed, non-graphic interpretive reconstruction of a representative Union division field hospital tent. Field hospitals were mobile, temporary frontline treatment centers located just behind the battlefield\u2014fundamentally different from permanent urban general hospitals like Satterlee and Chimborazo.",
+        "Early in the war, removing wounded soldiers from the battlefield was disorganized; civilian drivers fled under fire and regimental bands proved overwhelmed. Appointed Medical Director of the Army of the Potomac in June 1862, Dr. Jonathan Letterman drafted a revolutionary evacuation plan issued by Major General George B. McClellan as 'General Orders No. 147' on August 2, 1862.",
+        "General Orders No. 147 created a dedicated, uniformed Ambulance Corps commanded by medical officers, with trained stretcher-bearers, standardized ambulance wagons, regular drills, and protected evacuation routes from forward dressing stations to division field hospitals."
+      ],
+      "transcription": {
+        "meta": "General Orders No. 147 (1862), historical summary and short excerpt; confirm exact punctuation at archive",
+        "quote": "\u201cHeadquarters, Army of the Potomac, Camp near Harrison's Landing, Va., August 2, 1862. GENERAL ORDERS, No. 147: The following regulations for the organization of the Ambulance Corps, and the management of Ambulance Trains, are published for the government of all concerned... The captains shall be in command of the corps by army corps, first lieutenants by divisions, second lieutenants by brigades...\u201d",
+        "note": "A paraphrased and shortened excerpt for orientation. Open the original 1862 order to examine its exact wording and complete regulations."
+      },
+      "citation": "Army of the Potomac, General Orders No. 147, August 2, 1862, eHistory, The Ohio State University (https://ehistory.osu.edu/exhibitions/general-orders-number-147); Dana B. Shoaf, American Battlefield Trust.",
+      "sourceUrl": "https://ehistory.osu.edu/exhibitions/general-orders-number-147"
+    },
+    {
+      "id": "field-petersburg-surgeons-1864",
+      "wing": "field",
+      "title": "Union Surgeons & Field Hospital Operations (Petersburg, Aug 1864)",
+      "subtitle": "Library of Congress Documentary Photograph & Triage Organization",
+      "category": "Primary Source Photograph & Reconstruction",
+      "position": {
+        "x": 0,
+        "y": 1.2,
+        "z": -41
+      },
+      "artifactType": "surgicalTable",
+      "accentColor": "#34d399",
+      "visualType": "petersburgPhotoPlate",
+      "body": [
+        "Following the October 1862 Circular on Field Hospitals, Union field care operated on a three-tier system: (1) a regimental dressing station immediately behind the firing line for tourniquets and initial bandages, (2) a division field hospital (reconstructed in this gallery) situated one to two miles back near water and shelter, and (3) evacuation by rail or hospital steamer to permanent general hospitals like Satterlee.",
+        "An August 1864 stereograph in the Library of Congress ('Union surgeons of a division at Petersburg, Va.') captures medical officers gathered outside their canvas hospital tents during the Siege of Petersburg. Rather than selecting patients by social rank, division surgeons practiced systematic triage\u2014prioritizing soldiers whose lives or limbs could be saved by immediate surgical intervention while administering morphine to the mortally wounded."
+      ],
+      "transcription": {
+        "meta": "Photograph catalog description \u2022 Library of Congress (Item 2018666674), August 1864",
+        "quote": "Title: [Petersburg, Va. Union surgeons of a division]. Date Created/Published: 1864 August. Medium: 1 negative: glass, stereograph, wet collodion. Repository: Library of Congress Prints and Photographs Division.",
+        "note": "Interpretive Notice: The 3D tent environment surrounding this pedestal is an educational historical reconstruction, not an exact surviving structure."
+      },
+      "citation": "Library of Congress, Prints and Photographs Division, 'Union surgeons of a division at Petersburg, Va., August 1864' (https://www.loc.gov/item/2018666674/).",
+      "sourceUrl": "https://www.loc.gov/item/2018666674/"
+    },
+    {
+      "id": "field-anesthesia-albin",
+      "wing": "field",
+      "title": "Anesthesia in the Civil War: Myths vs. Documented Practice",
+      "subtitle": "Chloroform, Ether & Scholarly Findings (Maurice S. Albin, 2000)",
+      "category": "Medical Pharmacology Exhibit",
+      "position": {
+        "x": 7.5,
+        "y": 1.25,
+        "z": -36
+      },
+      "artifactType": "anesthesiaKit",
+      "accentColor": "#6ee7b7",
+      "visualType": "anesthesiaDiagram",
+      "body": [
+        "One of the most persistent popular myths of the Civil War is that soldiers routinely underwent surgery without anesthesia, 'biting the bullet.' As historian and anesthesiologist Dr. Maurice S. Albin demonstrates in 'The Use of Anesthetics during the Civil War, 1861\u20131865' (Pharmacy in History, 2000), inhalation anesthesia was used in the overwhelming majority of documented Union and Confederate major surgical procedures.",
+        "Distinguishing Invention from Expansion: Civil War surgeons did NOT invent anesthesia; William T.G. Morton publicly demonstrated diethyl ether in Boston in 1846, and James Young Simpson introduced chloroform in Edinburgh in 1847. However, the Civil War vastly expanded clinical familiarity with these agents.",
+        "Field surgeons strongly preferred chloroform over ether near the battlefield because chloroform acted more rapidly, required smaller volumes to transport in medical panniers, and was non-flammable around open oil lanterns and candles."
+      ],
+      "transcription": {
+        "meta": "Curatorial interpretation of scholarly findings \u2022 Not a primary-source quotation",
+        "quote": "Key Historiographical Takeaway: Inhalation anesthetics (chloroform, ether, and mixtures of both) were standard issue in both Union and Confederate surgical chests. Wartime experience trained thousands of American physicians in anesthetic administration, accelerating its post-war adoption across civilian medicine.",
+        "note": "Verified scholarly source: Pharmacy in History 42, no. 3/4 (2000): 99\u2013114."
+      },
+      "citation": "Maurice S. Albin, 'The Use of Anesthetics during the Civil War, 1861\u20131865,' Pharmacy in History 42, no. 3/4 (2000): 99\u2013114.",
+      "sourceUrl": "https://www.battlefields.org/learn/articles/how-civil-war-medical-developments-affect-us-every-day"
+    },
+    {
+      "id": "modern-legacy-synthesis",
+      "wing": "modern",
+      "title": "From 1865 to Present-Day Medicine: Continuity & Change",
+      "subtitle": "Emergency Transport, Triage, Hospital Administration, Anesthesia & Nursing",
+      "category": "Legacy Synthesis Exhibit",
+      "position": {
+        "x": 0,
+        "y": 1.35,
+        "z": -65
+      },
+      "artifactType": "modernCaduceus",
+      "accentColor": "#38bdf8",
+      "visualType": "modernLegacyMatrix",
+      "body": [
+        "How did Civil War medical practices shape the healthcare systems we rely on today? Historians emphasize careful precision: we must separate direct institutional lineages from broad organizational parallels and later independent scientific breakthroughs.",
+        "1. EMERGENCY TRANSPORTATION & TRIAGE (Important Military Precedent): Jonathan Letterman's 1862 Ambulance Corps (General Orders No. 147) and three-tiered evacuation system provided an important American military precedent for organized evacuation; later EMS and modern triage also had other historical influences.",
+        "2. ANESTHESIA & SPECIALIZATION (Accelerated Adoption): While discovered in the 1840s, the widespread wartime administration of chloroform and ether (Albin, 2000) normalized pain-free surgery across American towns after 1865, alongside specialized wards for neurology and reconstructive surgery.",
+        "3. HOSPITAL ADMINISTRATION & NURSING (Structural Transformation): Pavilion hospitals like Satterlee and Chimborazo transformed hospitals from feared almshouses into organized centers of care. The wartime work of female matrons (like Phoebe Yates Pember), religious orders (like Margaret Hamilton and the Sisters of Charity), and relief workers paved the way for formal American nursing schools in the 1870s.",
+        "4. WHAT CAME LATER (Independent Post-War Science): Antiseptic surgery (Joseph Lister, 1867), bacteriology (Pasteur and Koch), X-rays (1895), and antibiotics (20th century) were independent scientific revolutions that followed the war."
+      ],
+      "transcription": null,
+      "citation": "Dana B. Shoaf, 'How Civil War Medical Developments Affect Us Every Day,' American Battlefield Trust; Maurice S. Albin (2000); Army of the Potomac, General Orders No. 147 (1862).",
+      "sourceUrl": "https://www.battlefields.org/learn/articles/how-civil-war-medical-developments-affect-us-every-day"
+    }
+  ],
+  "bibliography": [
+    {
+      "id": "src-1",
+      "type": "Secondary Overview",
+      "citation": "American Battlefield Trust, Dana B. Shoaf, \"How Civil War Medical Developments Affect Us Every Day.\"",
+      "url": "https://www.battlefields.org/learn/articles/how-civil-war-medical-developments-affect-us-every-day",
+      "usage": "Used for the overarching synthesis of wartime medical organization, Letterman's evacuation system, pavilion hospitals, and modern medical legacies."
+    },
+    {
+      "id": "src-2",
+      "type": "Institutional History",
+      "citation": "National Museum of Civil War Medicine, \"The Story of Satterlee Hospital.\"",
+      "url": "https://www.civilwarmed.org/satterlee-hospital/",
+      "usage": "Used in the North Wing for Satterlee General Hospital's operations, Dr. Isaac Israel Hayes, Sister Mary Gonzaga Grace, Sister Margaret Hamilton, and patient Private John Worrall's survival."
+    },
+    {
+      "id": "src-3",
+      "type": "Institutional & Labor History",
+      "citation": "National Park Service, Richmond National Battlefield Park, \"Chimborazo Hospital.\"",
+      "url": "https://www.nps.gov/rich/learn/historyculture/chimborazo.htm",
+      "usage": "Used in the South Wing for Chimborazo's 150-building plateau layout, Dr. James B. McCaw's administration, Confederate logistical difficulties, and the coerced labor of enslaved and free African American hospital workers."
+    },
+    {
+      "id": "src-4",
+      "type": "Primary Source Visual",
+      "citation": "Free Library of Philadelphia, \"Satterlee U.S.A. General Hospital, West Philadelphia\" (1864 Charles Magnus lithograph), Item pdcp00420.",
+      "url": "https://libwww.freelibrary.org/digital/item/pdcp00420",
+      "usage": "Featured as an interactive visual artifact in the North Wing illustrating Satterlee's radiating wooden pavilion architecture."
+    },
+    {
+      "id": "src-5",
+      "type": "Primary Source Photograph",
+      "citation": "Library of Congress, Prints and Photographs Division, \"Union surgeons of a division at Petersburg, Va., August 1864,\" Item 2018666674.",
+      "url": "https://www.loc.gov/item/2018666674/",
+      "usage": "Featured in the Interpretive Field Hospital gallery documenting frontline Union division medical teams during the Siege of Petersburg."
+    },
+    {
+      "id": "src-6",
+      "type": "Primary Source Memoir",
+      "citation": "Phoebe Yates Pember, A Southern Woman's Story: Life in Confederate Richmond (1879), Project Gutenberg eBook #63870.",
+      "url": "https://www.gutenberg.org/files/63870/63870-h/63870-h.htm",
+      "usage": "Featured as an interactive primary source exhibit in the South Wing detailing Pember's service as Chief Matron of Chimborazo's Second Division."
+    },
+    {
+      "id": "src-7",
+      "type": "Primary Source Manuscript",
+      "citation": "George Ivy Letter, January 15, 1864, Chimborazo Hospital, Special Collections Research Center, William & Mary Libraries (Resource 1578).",
+      "url": "https://scrcguides.libraries.wm.edu/repositories/2/resources/1578",
+      "usage": "Featured as an interactive manuscript exhibit in the South Wing. Includes explicit curatorial verification note that Ivy's final wartime outcome is unverified."
+    },
+    {
+      "id": "src-8",
+      "type": "Primary Source Military Order",
+      "citation": "Army of the Potomac, General Orders No. 147, August 2, 1862, eHistory, The Ohio State University.",
+      "url": "https://ehistory.osu.edu/exhibitions/general-orders-number-147",
+      "usage": "Featured as an interactive primary source in the Field Hospital gallery explaining Jonathan Letterman's Ambulance Corps regulations."
+    },
+    {
+      "id": "src-9",
+      "type": "Scholarly Journal Article",
+      "citation": "Maurice S. Albin, \"The Use of Anesthetics during the Civil War, 1861\u20131865,\" Pharmacy in History 42, no. 3/4 (2000): 99\u2013114.",
+      "url": null,
+      "usage": "Used in the Introduction, Field Hospital, and Modern Legacy galleries to distinguish the 1840s discovery of ether and chloroform from their massive wartime clinical expansion."
+    }
+  ]
+}
