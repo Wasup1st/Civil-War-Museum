@@ -114,9 +114,19 @@ function addPictureFrame(x,z,imageUrl,caption){
 }
 
 function populateRooms(){
- addPictureFrame(-24,-31.14,'https://collaborativehistory.gse.upenn.edu/sites/default/files/Satterlee%20General%20Hospital%201864%20LCOP.jpg');
- addPictureFrame(24,-31.14,'https://cdn.loc.gov/service/pnp/ppmsca/33600/33629v.jpg');
- addPictureFrame(0,-52.64,'https://cdn.loc.gov/service/pnp/cwpb/03600/03662r.jpg');
+ // Distinct archival image walls: captions and original records are in each exhibit's reader.
+ // North: Satterlee, a documented Satterlee nurse, and another named Union hospital for comparison.
+ addPictureFrame(-30.5,-31.14,'https://collaborativehistory.gse.upenn.edu/sites/default/files/Satterlee%20General%20Hospital%201864%20LCOP.jpg');
+ addPictureFrame(-24,-31.14,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/57100/57159v.jpg');
+ addPictureFrame(-17.5,-31.14,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/33600/33627v.jpg');
+ // South: a documented image of Chimborazo. Do not misidentify other hospitals as Chimborazo.
+ addPictureFrame(24,-31.14,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/33600/33629v.jpg');
+ // Field hospital: period field hospital and a real photographed medical team.
+ addPictureFrame(-7.1,-52.64,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12575r.jpg');
+ addPictureFrame(7.1,-52.64,'https://tile.loc.gov/storage-services/service/pnp/cwpb/03600/03662r.jpg');
+ // Legacy: hospital wards and medical staff photographs, properly identified in exhibit panels.
+ addPictureFrame(-7.1,-78.74,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/33700/33750v.jpg');
+ addPictureFrame(7.1,-78.74,'https://tile.loc.gov/storage-services/service/pnp/cwpb/03900/03960r.jpg');
  // Interactive field-hospital scene: accessible, no graphic violence
  const wardBeds=[[-8,-39,Math.PI/2],[8,-39,-Math.PI/2],[-8,-49,Math.PI/2],[8,-49,-Math.PI/2]];
  wardBeds.forEach(([x,z,r])=>{loadModel('ward-bed',[x,0,z],1.15,r);addRectObstacle(x,z,2.2,2.7)});
@@ -127,6 +137,18 @@ function populateRooms(){
  for(let i=0;i<2;i++) {loadModel('ward-bed',[-31+i*12,0,-14.8],.83,0);loadModel('ward-bed',[17+i*12,0,-14.8],.83,0)}
  loadModel('ward-nurse',[-29,0,-19],.82,Math.PI/3);loadModel('medical-officer',[-18,0,-19],.83,-Math.PI/3);
  loadModel('ward-nurse',[29,0,-20],.82,Math.PI/3);loadModel('medical-officer',[18,0,-20],.83,-Math.PI/3);
+ // Keep the original ward beds. Add period-inspired furnishing clusters around them.
+ loadModel('supply-cart',[-32,0,-20.5],.76,Math.PI/2);
+ loadModel('medicine-chest',[-20.5,0,-20.8],.78);
+ loadModel('oil-lantern',[-18.0,.85,-16.9],.48);
+ loadModel('case-ledger',[-28.5,.65,-17.6],.67);
+ loadModel('supply-cart',[31.8,0,-20.5],.76,-Math.PI/2);
+ loadModel('medicine-chest',[19.5,0,-20.8],.78);
+ loadModel('oil-lantern',[18.0,.85,-16.9],.48);
+ loadModel('case-ledger',[28.5,.65,-17.6],.67);
+ loadModel('case-ledger',[-5.8,0,-37.5],.8);
+ loadModel('medicine-chest',[5.2,0,-50],.82);
+ loadModel('oil-lantern',[6.6,.85,-43.4],.55);
  for(let roomX of [-24,24]){for(let z of [-13,-30]){const l=new THREE.SpotLight(roomX<0?0xffdb9d:0xaabbe0,30,12,Math.PI/4,.55);l.position.set(roomX,4.9,z);l.target.position.set(roomX,0,z);scene.add(l,l.target)}}
 }
 function clampToWalkable(x,z){const r=CONFIG.playerRadius;const inside=WALKABLE.some(a=>x>=a.x1+r&&x<=a.x2-r&&z>=a.z1+r&&z<=a.z2-r);if(!inside)return false;for(let a of blockers){if(x>a.x1-r&&x<a.x2+r&&z>a.z1-r&&z<a.z2+r)return false}return true}
