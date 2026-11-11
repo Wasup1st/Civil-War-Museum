@@ -80,7 +80,25 @@ function buildRooms(){
  for(let x of [-7,7])for(let z of [-5,4]){let pedestal=meshBox(.26,4.7,.26,MAT.gold,x,2.35,z);const lamp=new THREE.PointLight(0xffcd8d,8,5);lamp.position.set(x,4.2,z);scene.add(lamp)}
  // handsome dark carpet strip leading into the legacy wing
  corridor(0,-56.5,7,8.5);
+ buildPassageWalls();
 }
+// Add solid walls along the connecting passages. Keep the side doorways open.
+function buildPassageWalls(){
+  for(const x of [-4.5,4.5]){
+    longWallZ(x,-12.1,-9.5);
+    longWallZ(x,-33.0,-18.1);
+    longWallZ(x,-60.1,-53.0);
+  }
+  // The east-west passage connects both hospital wings to the central hall.
+  for(const [x1,x2] of [[-13.5,-4.5],[4.5,13.5]]){
+    longWallX(x1,x2,-12.1);
+    longWallX(x1,x2,-18.1);
+  }
+  // Frame the passages, but do not block the playable openings.
+  addArch(-4.5,-15.1,5.95,Math.PI/2);
+  addArch(4.5,-15.1,5.95,Math.PI/2);
+}
+
 function addRectObstacle(x,z,w,d){blockers.push({x1:x-w/2,x2:x+w/2,z1:z-d/2,z2:z+d/2})}
 async function loadModel(name,position,scale=1,rotation=0){if(!modelCache.has(name))modelCache.set(name,new Promise((res,rej)=>gltfLoader.load(`./assets/models/${name}.glb`,g=>res(g.scene),undefined,rej)));try{let original=await modelCache.get(name);let obj=original.clone(true);obj.position.set(...position);obj.scale.setScalar(scale);obj.rotation.y=rotation;obj.traverse(n=>{if(n.isMesh){n.castShadow=true;n.receiveShadow=true}});scene.add(obj);return obj}catch(err){console.warn('GLB unavailable',name,err);return null}}
 function pole(x,z,height=1.6){meshBox(.07,height,.07,MAT.gold,x,height/2,z)}
