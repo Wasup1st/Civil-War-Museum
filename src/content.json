@@ -463,91 +463,91 @@
     {
       "id": "src-1",
       "type": "Secondary Overview",
-      "citation": "American Battlefield Trust, Dana B. Shoaf, \"How Civil War Medical Developments Affect Us Every Day.\"",
+      "citation": "Shoaf, Dana B. \"How Civil War Medical Developments Affect Us Every Day.\" American Battlefield Trust.",
       "url": "https://www.battlefields.org/learn/articles/how-civil-war-medical-developments-affect-us-every-day",
       "usage": "Used for the overarching synthesis of wartime medical organization, Letterman's evacuation system, pavilion hospitals, and modern medical legacies."
     },
     {
       "id": "src-2",
       "type": "Institutional History",
-      "citation": "National Museum of Civil War Medicine, \"The Story of Satterlee Hospital.\"",
+      "citation": "Mahr, Michael. \"The Story of Satterlee Hospital.\" National Museum of Civil War Medicine, 30 Nov. 2022.",
       "url": "https://www.civilwarmed.org/satterlee-hospital/",
       "usage": "Used in the North Wing for Satterlee General Hospital's operations, Dr. Isaac Israel Hayes, Sister Mary Gonzaga Grace, Sister Margaret Hamilton, and patient Private John Worrall's survival."
     },
     {
       "id": "src-3",
       "type": "Institutional & Labor History",
-      "citation": "National Park Service, Richmond National Battlefield Park, \"Chimborazo Hospital.\"",
+      "citation": "National Park Service. \"Chimborazo Hospital.\" Richmond National Battlefield Park.",
       "url": "https://www.nps.gov/rich/learn/historyculture/chimborazo.htm",
       "usage": "Used in the South Wing for Chimborazo's 150-building plateau layout, Dr. James B. McCaw's administration, Confederate logistical difficulties, and the coerced labor of enslaved and free African American hospital workers."
     },
     {
       "id": "src-4",
       "type": "Primary Source Visual",
-      "citation": "Free Library of Philadelphia, \"Satterlee U.S.A. General Hospital, West Philadelphia\" (1864 Charles Magnus lithograph), Item pdcp00420.",
+      "citation": "\"Satterlee U.S.A. General Hospital, West Philadelphia.\" Lithograph, published by Charles Magnus, 1864. Free Library of Philadelphia, item pdcp00420.",
       "url": "https://libwww.freelibrary.org/digital/item/pdcp00420",
       "usage": "Featured as an interactive visual artifact in the North Wing illustrating Satterlee's radiating wooden pavilion architecture."
     },
     {
       "id": "src-5",
       "type": "Primary Source Photograph",
-      "citation": "Library of Congress, '[Petersburg, Va. Surgeons of 3d Division before hospital tent],' August 1864, item 2018666674.",
+      "citation": "\"Petersburg, Va. Surgeons of 3d Division before Hospital Tent.\" Photograph, Aug. 1864. Library of Congress, item 2018666674.",
       "url": "https://www.loc.gov/item/2018666674/",
       "usage": "Featured in the Interpretive Field Hospital gallery documenting frontline Union division medical teams during the Siege of Petersburg."
     },
     {
       "id": "src-6",
       "type": "Primary Source Memoir",
-      "citation": "Phoebe Yates Pember, A Southern Woman's Story: Life in Confederate Richmond (1879), Project Gutenberg eBook #63870.",
+      "citation": "Pember, Phoebe Yates. A Southern Woman's Story. G. W. Carleton & Co., 1879. Project Gutenberg, eBook 63870.",
       "url": "https://www.gutenberg.org/files/63870/63870-h/63870-h.htm",
       "usage": "Featured as an interactive primary source exhibit in the South Wing detailing Pember's service as Chief Matron of Chimborazo's Second Division."
     },
     {
       "id": "src-7",
       "type": "Primary Source Manuscript",
-      "citation": "George Ivy Letter, January 15, 1864, SC 00308. Special Collections Research Center, William & Mary Libraries.",
+      "citation": "\"George Ivy Letter.\" 15 Jan. 1864. SC 00308, Special Collections Research Center, William & Mary Libraries.",
       "url": "https://scrcguides.libraries.wm.edu/repositories/2/resources/1578",
       "usage": "Featured as an interactive manuscript exhibit in the South Wing. Includes explicit curatorial verification note that Ivy's final wartime outcome is unverified."
     },
     {
       "id": "src-8",
       "type": "Primary Source Military Order",
-      "citation": "Army of the Potomac, General Orders No. 147, August 2, 1862, eHistory, The Ohio State University.",
+      "citation": "Army of the Potomac. \"General Orders No. 147.\" 2 Aug. 1862. Ohio State University eHistory.",
       "url": "https://ehistory.osu.edu/exhibitions/general-orders-number-147",
       "usage": "Featured as an interactive primary source in the Field Hospital gallery explaining Jonathan Letterman's Ambulance Corps regulations."
     },
     {
       "id": "src-9",
       "type": "Scholarly Journal Article",
-      "citation": "Maurice S. Albin, \"The Use of Anesthetics during the Civil War, 1861–1865,\" Pharmacy in History 42, no. 3/4 (2000): 99–114.",
+      "citation": "Albin, Maurice S. \"The Use of Anesthetics during the Civil War, 1861-1865.\" Pharmacy in History, vol. 42, nos. 3-4, 2000, pp. 99-114. JSTOR.",
       "url": "https://www.jstor.org/stable/41112682",
       "usage": "Used in the Introduction, Field Hospital, and Modern Legacy galleries to distinguish the 1840s discovery of ether and chloroform from their massive wartime clinical expansion."
     },
     {
       "id": "src-10",
       "type": "Firsthand recollection (reproduced)",
-      "citation": "Margaret Hamilton, nursing recollections, quoted in Michael Mahr, 'The Story of Satterlee Hospital,' National Museum of Civil War Medicine (2022).",
+      "citation": "Hamilton, Margaret. Firsthand nursing recollection, quoted in Michael Mahr, \"The Story of Satterlee Hospital,\" National Museum of Civil War Medicine, 2022, citing Our Army Nurses.",
       "url": "https://www.civilwarmed.org/satterlee-hospital/",
       "usage": "Direct words of a Satterlee nurse, quoted by the museum with a reference to Our Army Nurses."
     },
     {
       "id": "src-11",
       "type": "Primary Source, Medical Team",
-      "citation": "Library of Congress, '[Petersburg, Va. Surgeons of 3d Division before hospital tent],' August 1864, item 2018666674.",
-      "url": "https://www.loc.gov/item/2018666674/",
-      "usage": "Original photo of a real Union medical team, not Satterlee workers."
+      "citation": "\"Ambulance Drill in the Field.\" Photograph, circa 1862, cataloged between 1862 and 1869. Library of Congress, item 2018671824.",
+      "url": "https://www.loc.gov/item/2018671824/",
+      "usage": "Original photograph of ambulance training, used in field hospital displays."
     },
     {
       "id": "src-12",
       "type": "Secondary Scholarly Book",
-      "citation": "Shauna Devine, Learning from the Wounded: The Civil War and the Rise of American Medical Science. University of North Carolina Press, 2014.",
+      "citation": "Devine, Shauna. Learning from the Wounded: The Civil War and the Rise of American Medical Science. University of North Carolina Press, 2014.",
       "url": "https://uncpress.org/9798890844620/learning-from-the-wounded/",
       "usage": "Scholarly context for the growth of Civil War medical recordkeeping and research. Check relevant chapters before citing precise findings."
     },
     {
       "id": "src-13",
       "type": "Secondary Scholarly Book",
-      "citation": "Margaret Humphreys, Marrow of Tragedy: The Health Crisis of the American Civil War. Johns Hopkins University Press, 2013 (original edition).",
+      "citation": "Humphreys, Margaret. Marrow of Tragedy: The Health Crisis of the American Civil War. Johns Hopkins University Press, 2013.",
       "url": "https://www.press.jhu.edu/books/title/9082/marrow-tragedy",
       "usage": "Scholarly context for the health crisis on both sides. Check chapters before citing specific claims."
     }
