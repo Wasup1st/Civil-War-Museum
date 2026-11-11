@@ -66,7 +66,7 @@ export function prepareReader(museum){const content=$('reader-content');content.
  }
  for(let paragraph of item.body||[])add(entry,'p',paragraph);
  if(item.transcription){add(entry,'small',item.transcription.meta);add(entry,'blockquote',item.transcription.quote);add(entry,'p',item.transcription.note)}
- if(item.staffRoles){add(entry,'h4','Documented hospital roles');for(let role of item.staffRoles){add(entry,'p',role.role+' — '+role.duties)}}
+ if(item.staffRoles){add(entry,'h4','Documented hospital roles');for(let role of item.staffRoles){add(entry,'p',role.role+': '+role.duties)}}
  const related=documentsFor(item.id);
  if(related.length){add(entry,'h4','Original documents and firsthand records');for(const record of related){const p=add(entry,'p','','reader-record');const a=add(p,'a',record.title+' ↗');a.href=record.record;a.target='_blank';a.rel='noopener noreferrer';add(p,'small',' '+record.date+'. '+record.note);}}
  add(entry,'small','SOURCE: '+item.citation);if(item.sourceUrl){const p=add(entry,'p');const a=add(p,'a','View original source ↗');a.href=item.sourceUrl;a.target='_blank';a.rel='noopener noreferrer'}
