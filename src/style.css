@@ -12,3 +12,13 @@
 .archive-figure img{display:block;width:100%;height:auto;max-height:270px;object-fit:contain;background:#0e131a;border-radius:.25rem}
 .archive-figure figcaption{font-size:.85rem;line-height:1.5;color:#e6e0d5;margin:.6rem 0}
 .archive-figure a{font-size:.83rem}
+
+
+/* Historical document index and exhibit-specific manuscript links */
+.record-links{margin:1.25rem 0;padding:1rem;background:#121c24;border:1px solid #3f505d;border-radius:.75rem}
+.record-links h3{font-family:'Libre Baskerville',Georgia,serif;font-size:1.1rem;color:#f5e7ce;margin:0 0 .8rem}
+.record-link{padding:.65rem 0;border-top:1px solid #34414a}
+.record-link:first-of-type{border-top:0}
+.record-link a,.reader-record a{color:#e6ba7b;text-decoration:underline;text-underline-offset:3px;line-height:1.5}
+.record-link small,.reader-record small{display:block;color:#b6c5cc;line-height:1.5;margin-top:.25rem}
+.reader-record{padding:.4rem 0}
