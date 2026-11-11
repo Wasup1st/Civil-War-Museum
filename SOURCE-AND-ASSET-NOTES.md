@@ -19,3 +19,14 @@
 - Images currently load from archival servers rather than being bundled locally. A failed remote request produces a fallback with an accessible source link in the exhibit. For a self-contained installation, download licensed JPEGs into `assets/archives/`, then update the `url` fields in `src/archive.js` and photo wall paths in `src/main.js`.
 - Review source-page usage/rights before republishing or changing photographs. The Library of Congress catalog lists no known publication restrictions for the checked historical photographs; collection rights guidance still applies.
 - Personnel models are interpretive representations. They must never be presented as authenticated likenesses of named historical people.
+
+## November 11, 2026 research and exhibit revision
+
+- All fourteen exhibit texts were rewritten using shorter, plain-language paragraphs and no em dashes. The central argument, patient stories, documented staff, and present-day connections remain.
+- Three exhibits now use short verified direct excerpts: Margaret Hamilton's nursing recollection, Phoebe Yates Pember's memoir, and General Orders No. 147. Other archival summaries are not formatted as testimony.
+- John Worrall's medical history is described as a recorded case, not as a personal diary. George Ivy's original letter is referenced by its archival catalog; we have not verified a full transcription or his medical outcome.
+- The picture archive in `src/archive.js` has fourteen images and seven original-document or archival-record links. All fourteen exhibits have linked relevant images and source records. Additional views clearly identify photos from different hospitals.
+- Ten visual archive frames now appear throughout the 3D museum. The staff figures and original ward beds are preserved. Extra original GLB furnishings were added in the Union, Confederate, and field-hospital rooms.
+- `src/main.js` now adds side corridor walls and doorway frames at the North/South junction and the hall between the introduction, field hospital, and legacy gallery. Changes need final live-render inspection for geometry and navigation.
+- `PROJECT-RUBRIC-AUDIT.md` maps the site to the instructor's seven rubric categories. The separate Word/PDF overview, historical argument, personal reflection, and Works Cited still require completion.
+- Archival image URLs may change or block third-party embedding. When an image fails, use the source record link in the exhibit instead of substituting an unrelated image.
