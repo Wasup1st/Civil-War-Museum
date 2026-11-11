@@ -1,4 +1,4 @@
-import { archiveFor, ARCHIVE } from './archive.js';
+import { archiveFor, ARCHIVE, documentsFor, DOCUMENTS } from './archive.js';
 const $=id=>document.getElementById(id);
 const display=(id,on)=>$(id)?.classList.toggle('hidden',!on);
 const add=(parent,name,txt,cls='')=>{const n=document.createElement(name);n.textContent=txt||'';if(cls)n.className=cls;parent.appendChild(n);return n};
@@ -37,6 +37,19 @@ export function mountExhibitUI(){let currentId=null;
    $('media-fallback').textContent='HISTORICAL DOCUMENTATION';
    credit.textContent='The archival source link appears in this exhibit.';
  }
+ // Link relevant primary documents, but do not present catalog summaries as direct testimony.
+ let records=document.getElementById('related-original-records');
+ if(!records){records=document.createElement('section');records.id='related-original-records';records.className='record-links';$('exhibit-cite').closest('.citation').insertAdjacentElement('beforebegin',records)}
+ records.replaceChildren();
+ const originalRecords=documentsFor(item.id);
+ if(originalRecords.length){
+   add(records,'h3','Read the original records');
+   for(const record of originalRecords){
+     const row=add(records,'div','','record-link');
+     const a=add(row,'a',record.title+' ↗');a.href=record.record;a.target='_blank';a.rel='noopener noreferrer';
+     add(row,'small',record.date+' · '+record.note);
+   }
+ }
  const trans=item.transcription;display('source-quote',!!trans);if(trans){$('quote-meta').textContent=trans.meta||'Historical record';$('quote-text').textContent=trans.quote||'';$('quote-note').textContent=trans.note||''}
  const roles=item.staffRoles||[];display('staff-area',roles.length>0);const buttons=$('staff-buttons');buttons.replaceChildren();$('staff-description').textContent='';roles.forEach((role,index)=>{const button=add(buttons,'button',role.role);button.addEventListener('click',()=>{$('staff-description').textContent=role.duties;buttons.querySelectorAll('button').forEach(b=>b.classList.remove('selected'));button.classList.add('selected')});if(!index)button.click()});
  }
@@ -54,11 +67,15 @@ export function prepareReader(museum){const content=$('reader-content');content.
  for(let paragraph of item.body||[])add(entry,'p',paragraph);
  if(item.transcription){add(entry,'small',item.transcription.meta);add(entry,'blockquote',item.transcription.quote);add(entry,'p',item.transcription.note)}
  if(item.staffRoles){add(entry,'h4','Documented hospital roles');for(let role of item.staffRoles){add(entry,'p',role.role+' — '+role.duties)}}
+ const related=documentsFor(item.id);
+ if(related.length){add(entry,'h4','Original documents and firsthand records');for(const record of related){const p=add(entry,'p','','reader-record');const a=add(p,'a',record.title+' ↗');a.href=record.record;a.target='_blank';a.rel='noopener noreferrer';add(p,'small',' '+record.date+'. '+record.note);}}
  add(entry,'small','SOURCE: '+item.citation);if(item.sourceUrl){const p=add(entry,'p');const a=add(p,'a','View original source ↗');a.href=item.sourceUrl;a.target='_blank';a.rel='noopener noreferrer'}
  }}
  const archive=add(content,'section','','reader-sources');add(archive,'p','PRIMARY SOURCE IMAGE COLLECTION','eyebrow');add(archive,'h2','Historic photographs and lithographs');add(archive,'p','These original records document real hospitals and medical personnel. Image labels distinguish the locations shown from the exhibit case studies.');
  const grid=add(archive,'div','','archive-index');
  for(const picture of ARCHIVE){const fig=add(grid,'figure','','archive-figure');const im=add(fig,'img');im.src=picture.url;im.alt=picture.title;im.loading='lazy';im.onerror=()=>{im.remove();add(fig,'p','Image preview unavailable')};add(fig,'figcaption',picture.title+' · '+picture.date);const a=add(fig,'a','Source & rights ↗');a.href=picture.record;a.rel='noopener noreferrer';a.target='_blank';}
+ const originalIndex=add(content,'section','','reader-sources');add(originalIndex,'p','PRIMARY DOCUMENTS','eyebrow');add(originalIndex,'h2','Letters, first-person accounts, and orders');
+ for(const source of DOCUMENTS){const p=add(originalIndex,'p','','reader-record');const a=add(p,'a',source.title+' ↗');a.href=source.record;a.target='_blank';a.rel='noopener noreferrer';add(p,'small',' '+source.date+'. '+source.note)}
  const bib=add(content,'section','','reader-sources');add(bib,'h2','Works cited and historical records');const ol=add(bib,'ol');for(const b of museum.bibliography){const li=add(ol,'li',b.citation+'. ');if(b.url){const a=add(li,'a','Original publication ↗');a.href=b.url;a.target='_blank';a.rel='noopener noreferrer'}}
  add(content,'p','Curatorial note: Museum environments and staff figures are historical interpretations, not photographic reconstructions of actual individuals. The primary sources are linked to archives; secondary summaries are identified as summaries. This exhibit is educational and does not portray medical procedures graphically.');
 }
