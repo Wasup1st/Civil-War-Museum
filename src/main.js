@@ -139,9 +139,11 @@ function populateRooms(){
  addPictureFrame(-17.5,-31.14,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/33600/33627v.jpg');
  // South: a documented image of Chimborazo. Do not misidentify other hospitals as Chimborazo.
  addPictureFrame(24,-31.14,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/33600/33629v.jpg');
+ addPictureFrame(17.4,-31.14,'https://home.nps.gov/rich/learn/historyculture/images/Phoebe_Yates_Pember_lib.jpg?autorotate=false&maxwidth=650');
  // Field hospital: period field hospital and a real photographed medical team.
  addPictureFrame(-7.1,-52.64,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/12500/12575r.jpg');
  addPictureFrame(7.1,-52.64,'https://tile.loc.gov/storage-services/service/pnp/cwpb/03600/03662r.jpg');
+ addPictureFrame(0,-52.64,'https://tile.loc.gov/storage-services/service/pnp/cwpb/00100/00101r.jpg');
  // Legacy: hospital wards and medical staff photographs, properly identified in exhibit panels.
  addPictureFrame(-7.1,-78.74,'https://tile.loc.gov/storage-services/service/pnp/ppmsca/33700/33750v.jpg');
  addPictureFrame(7.1,-78.74,'https://tile.loc.gov/storage-services/service/pnp/cwpb/03900/03960r.jpg');
